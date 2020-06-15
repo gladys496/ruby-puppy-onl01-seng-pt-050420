@@ -11,6 +11,7 @@ class Dog
     @@all
   end
   def self.clear_all 
-    @@all.pop 
+    @@all.clear_all
+  end 
  
 end 
