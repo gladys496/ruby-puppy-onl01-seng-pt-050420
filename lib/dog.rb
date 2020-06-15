@@ -1,3 +1,6 @@
 class Dog 
   @@all = []
-  initialize 
+  initialize(name)
+  @name = name
+  
+end 
